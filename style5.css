@@ -1,0 +1,502 @@
+/* Normalize */
+* {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  box-sizing: border-box;
+}
+/* h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+} */
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* End normalize */
+
+/* Header Section */
+.header {
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
+.header-li {
+  padding: 12px 16px;
+}
+
+.header-a {
+  color: inherit;
+  opacity: 0.5;
+}
+
+.header-a:hover {
+  color: #1f1534;
+  opacity: 1;
+}
+
+.header-a-active {
+  /* color: var(--1f1534-hyfen, #1F1534); */
+  color: #1f1534;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* End Header Section */
+
+/* Start Hero Section */
+
+.hero {
+  margin-bottom: 113px;
+}
+
+.hero-left {
+  width: 36%;
+}
+.hero-right {
+  margin-left: 30px;
+}
+.hero-title {
+  color: #000;
+  font-family: Mulish;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  margin-bottom: 25px;
+}
+.hero-subtitle {
+  margin-bottom: 45px;
+  color: #7d7987;
+  font-family: Mulish;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 32px;
+}
+.btn {
+  border: none;
+  width: 200px;
+  height: 56px;
+  border-radius: 55px;
+  background-color: #458ff6;
+  color: #fff;
+  font-family: Mulish;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 60px;
+  transition: all 0.1s ease;
+}
+.btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* End Hero Section */
+
+/* Start Main Section */
+.main {
+  margin-bottom: 120px;
+}
+.main-title {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #000;
+  font-family: Mulish;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.underline {
+  margin: 0 auto;
+  display: block;
+  border-radius: 5px;
+  background: #000;
+  margin-bottom: 10px;
+}
+.main-subtitle {
+  width: 952px;
+  text-align: center;
+  margin: 0 auto;
+  color: #7d7987;
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 80px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 36px;
+}
+
+.card {
+  width: 340px;
+  height: 354px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+  margin-bottom: 70px;
+  transition: all 0.1s ease;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 8px #f5f2f2;
+}
+
+.card-image {
+  margin-top: 54px;
+  margin-left: 37px;
+  margin-bottom: 21px;
+}
+.card-title {
+  color: #000;
+  font-family: Mulish;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 56px;
+  margin-left: 39px;
+}
+.card-subtitle {
+  color: #7d7987;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  margin: 0 45px 46px 39px;
+}
+.btn2 {
+  margin: 0 auto;
+  display: block;
+  width: 200px;
+  height: 56px;
+  border-radius: 55px;
+  border: 1.4px solid #458ff6;
+  color: #458ff6;
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 60px;
+  background-color: #fff;
+  transition: all 0.1s ease;
+}
+.btn2:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+/* End Main Section */
+
+/* Loading Section */
+.loading {
+  margin-bottom: 140px;
+}
+.loading-right {
+  margin-left: 50px;
+}
+
+.loading-title {
+  width: 70%;
+  color: #000;
+  font-family: Mulish;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 56px;
+  margin-bottom: 20px;
+}
+
+.loading-underline {
+  margin-bottom: 31px;
+}
+
+.loading-subtitle {
+  color: #7d7987;
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 37px;
+}
+
+.btn3 {
+  width: 200px;
+  height: 56px;
+  border-radius: 55px;
+  background: #fff;
+  border: 1.4px solid #458ff6;
+  color: #458ff6;
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 60px;
+  transition: all 0.1s ease;
+}
+.btn3:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/* End Leading-Section  */
+
+/* Download Section */
+.download {
+  margin-bottom: 160px;
+}
+.download-left {
+  margin-right: 47px;
+}
+
+.download-title {
+  width: 55%;
+  color: #000;
+  font-family: Mulish;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.download-underline {
+  margin-top: 30px;
+  margin-bottom: 31px;
+}
+
+.download-subtitle {
+  width: 75%;
+  color: #7d7987;
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.download-button {
+  width: 200px;
+  height: 56px;
+  border-radius: 55px;
+  border: 1.4px solid #458ff6;
+  background-color: #fff;
+  color: #458ff6;
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 60px;
+  transition: all 0.1s ease;
+}
+.download-button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+/* End Download Section */
+
+/* Founder Section */
+.founder {
+  width: 1120px;
+  height: 425px;
+  background-image: url(./images/backgroundfounder.svg);
+  margin-bottom: 40px;
+}
+
+.founder-header {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+.founder-header h3 {
+  color: var(--Green-2, #27ae60);
+  font-family: Mulish;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.founder-underline {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.founder-foot {
+  margin: 60px;
+}
+.foot-img {
+  border: 5px solid #2f80ed;
+  border-radius: 50%;
+}
+
+.foot-title {
+  color: var(--Green-2, #27ae60);
+  font-family: Mulish;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-left: -180px;
+}
+
+.foot-p {
+  color: rgba(255, 255, 255, 0.85);
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 48px;
+  margin-left: -180px;
+}
+
+.foot-subtitle {
+  width: 400px;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: Mulish;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-left: -60px;
+}
+.container-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 170px;
+}
+
+/* End Founder Section */
+
+/* Check Section */
+.check {
+  margin-bottom: 200px;
+}
+
+.check-title {
+  color: #000;
+  font-family: Mulish;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: center;
+  margin-bottom: 26px;
+}
+.check-underline {
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  background: #000;
+  margin-bottom: 72px;
+}
+
+.check-cards {
+  margin-bottom: 60px;
+}
+.check-card {
+  border-radius: 20px;
+  width: 340px;
+  height: 512px;
+  background: #fff;
+  box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+  transition: all 0.1s ease;
+}
+.check-card:hover {
+  transition: all 0.1s ease;
+  box-shadow: 10px 10px 8px #f5f2f2;
+}
+.checkImg {
+  background: #fff;
+  box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+  margin-bottom: 21px;
+}
+.check-card h3 {
+  margin-left: 20px;
+  width: 240px;
+  height: 64px;
+  color: #000;
+  font-family: Mulish;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 12px;
+}
+
+.check-card p {
+  margin-left: 20px;
+  width: 266px;
+  height: 80px;
+  color: #7d7987;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+.check-card a {
+  margin-left: 20px;
+  color: #4089ed;
+  font-family: Mulish;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.card-arrow {
+  margin-left: 10px;
+}
+
+.check-button4 {
+  display: block;
+  margin: 0 auto;
+  color: #458ff6;
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 60px;
+  width: 200px;
+  height: 56px;
+  border-radius: 55px;
+  border: 1.4px solid #458ff6;
+  background-color: #fff;
+  transition: all 0.1s ease;
+}
+.check-button4:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+/* End Check Section */
+
+/*  Start Footer Section */
+.footer {
+  padding: 50px;
+  background: linear-gradient(183deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+}
+
+.foot-a{
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 38px;
+  opacity: 0.8;
+}
+
+.footer-p {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  opacity: 1;
+}
+/* End Footer Section */
